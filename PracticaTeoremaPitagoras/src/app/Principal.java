@@ -12,10 +12,12 @@ public class Principal {
 		
 		//Calculos para T1
 		int areaT1 = T1.area();
+		double HipotenusaT1 = T1.hipotenusa();
 		double perimetroT1 = T1.perimetro();
 		
 		//Calculos para T2
 		int areaT2 = T2.area();
+		double hipotenusaT2 = T2.hipotenusa();
 		double perimetroT2 = T2.perimetro();
 		
 		T1.area();

@@ -41,7 +41,7 @@ public class TrianguloRectangulo {
 	 */
 	public double hipotenusa() {
 		this.c = Math.sqrt((this.a*this.a)+(this.b*this.b));
-		return this.c;
+		return Math.round(this.c * 100.0) / 100.0;
 	}
 	
 	/*
@@ -50,7 +50,7 @@ public class TrianguloRectangulo {
 	 */
 	public double perimetro() {
 		double perimetro =  (this.a+this.b) + hipotenusa();
-		return perimetro;
+		return Math.round(perimetro * 100.0) / 100.0;
 	}
 
 	//Metodos Getters y Setters
